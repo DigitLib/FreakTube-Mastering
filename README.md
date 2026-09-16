@@ -129,8 +129,8 @@ Pre-compiled 64-bit release binaries are packaged as standalone archives and ava
 
 | Platform        | Package Archive                                       | Contents                                                                                             | Compatibility                                          |
 | :-------------- | :---------------------------------------------------- | :--------------------------------------------------------------------------------------------------- | :----------------------------------------------------- |
-| **Windows x64** | [**`FreakTubeMastering-Windows-x64.zip`**](releases)  | • `FreakTube Mastering.vst3` bundle<br>• `FreakTube Mastering.exe` standalone                        | Windows 10/11 x64 (All major DAWs & Standalone)        |
-| **Linux x64**   | [**`FreakTubeMastering-Linux-x64.tar.gz`**](releases) | • `FreakTube Mastering.lv2` bundle (`libFreakTubeMastering.so`)<br>• `FreakTubeMastering` standalone | Linux x64 (Ardour, Carla, Mixbus, Reaper & Standalone) |
+| **Windows x64** | [**`FreakTubeMastering-Windows-x64.zip`**](https://github.com/DigitLib/FreakTube-Mastering/releases/download/v0.0.1-beta/FreakTubeMastering-Windows-x64.zip)  | • `FreakTube Mastering.vst3` bundle<br>• `FreakTube Mastering.exe` standalone                        | Windows 10/11 x64 (All major DAWs & Standalone)        |
+| **Linux x64**   | [**`FreakTubeMastering-Linux-x64.tar.gz`**](https://github.com/DigitLib/FreakTube-Mastering/releases/download/v0.0.1-beta/FreakTubeMastering-Linux-x64.tar.gz) | • `FreakTube Mastering.lv2` bundle (`libFreakTubeMastering.so`)<br>• `FreakTubeMastering` standalone | Linux x64 (Ardour, Carla, Mixbus, Reaper & Standalone) |
 
 ---
 
