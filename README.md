@@ -165,6 +165,18 @@ Pre-compiled 64-bit release binaries are packaged as standalone archives and ava
    ```
 4. **Rescan in DAW**: Launch your Linux DAW (Ardour, Carla, Harrison Mixbus, or Reaper) and rescan plugins.
 
+>[!NOTE]
+>Mixbus12 have outdated libfreelibrary, here is a quick FIX:
+```bash
+# 1. Back up Mixbus's bundled FreeType files
+sudo mv /opt/Mixbus-12.0.1/lib/libfreetype.so.6 /opt/Mixbus-12.0.1/lib/libfreetype.so.6.bak
+sudo mv /opt/Mixbus-12.0.1/lib/libfreetype.so /opt/Mixbus-12.0.1/lib/libfreetype.so.bak 2>/dev/null || true
+
+# 2. Symlink CachyOS's system FreeType
+sudo ln -s /usr/lib/libfreetype.so.6 /opt/Mixbus-12.0.1/lib/libfreetype.so.6
+sudo ln -s /usr/lib/libfreetype.so /opt/Mixbus-12.0.1/lib/libfreetype.so
+```
+
 ---
 
 ## Controls & Parameter Reference
